@@ -1,0 +1,361 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    font-family: "Gilroy";
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    padding: 0px 50px;
+    border: 1px solid whitesmoke;
+    overflow: hidden;
+}
+
+#photo {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-image: url(https://shayarimaza.com/files/girls-dp-images/alone-girl-dp-images/Alone-Girl-Dp-For-Whatsapp-Profile.jpg);
+    background-size: cover;
+}
+#search{
+    display: flex;
+    align-items: center;
+}
+#search input{
+   margin-left: 8px;
+   border:none;
+   outline: none;
+   margin-top: 3px;
+}
+ 
+#nav>i{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:rgb(192, 141, 243);
+    font-size: 18px;
+}
+#foryou{
+    font-family: "Gilroy";
+    /* padding: 0px 50px; */
+    margin-top:30px ;
+    font-size: 20px;
+}
+#foryou>h3
+{
+    padding-left: 2%;
+}
+#cards{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+    flex-shrink:0 ;
+    /* margin-left:-5%; */
+}
+#cards::-webkit-scrollbar{
+    display: none;
+}
+.card
+{
+    display: flex;
+    height: 260px;
+    width: 380px;
+    background-size: cover;
+    border-radius: 8px;
+    padding: 18px 20px;
+    gap: 18px;
+    flex-shrink: 0;
+}
+#first{
+    background: linear-gradient(to bottom,rgb(184, 184, 240),rgb(34, 91, 165));
+}
+.book{
+    width: 155px;
+    height: 100%;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+#book1{
+    background-image:url(https://kbimages1-a.akamaihd.net/7b44dfad-0d63-49f2-b225-ecd0f8d39bf4/1200/1200/False/the-adventures-of-huckleberry-finn-203.jpg);
+    box-shadow: 8px 8px 10px rgb(2, 48, 166);
+
+}
+#text{
+    width: 155px;
+    height: 100%;
+
+}
+#text>h3{
+    padding-top:17px ;
+    line-height: 30px;
+    font-size: 18px;
+    color: white;
+}
+#text>h5{
+    line-height: 30px;
+    color:rgba(240, 230, 230, 0.916);
+    font-size: 13px;
+}
+#text>i{
+color: #ffff;
+/* font-size: 10px; */
+font-size: 17px;
+}
+#photo2{
+    display: flex;
+    gap:10px;
+}
+.pic{    
+    height: 30px;
+    width:30px;
+    margin-right: 5px;
+    margin-top: 15px;
+    border-radius: 50%;
+    background-color: #ffff;
+    background-position: center;
+
+}
+
+#c{
+    background-color: #ffff;
+    font-size: 10px;
+    padding-top:9px;
+    padding-left: 5px;
+}
+#a{
+    background-image: url(https://images.unsplash.com/photo-1658153254049-2d14c2eb98b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-size:cover;
+}
+#b{
+   background-image: url(https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHBvcnRyYWl0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+   background-size:cover;
+}
+#second{
+    background: linear-gradient(to bottom,rgb(221, 193, 237),rgb(141, 54, 154));
+}
+#book2{
+    background-image:url(https://demo.phlox.pro/book-store/wp-content/uploads/sites/116/2019/06/7-2.jpg);
+    box-shadow: 8px 8px 10px rgba(14, 1, 26, 0.875);
+
+}
+#d{
+    background-image: url(https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBvcnRyYWl0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size:cover;
+}
+#e{
+    background-image: url(https://images.unsplash.com/photo-1629747490241-624f07d70e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cG9ydHJhaXRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+#third
+{
+     background: linear-gradient(to bottom,rgb(238, 150, 238), rgb(245, 185, 96));
+}
+#book3{
+    background-image:url(https://truelakeaudio1.files.wordpress.com/2017/06/how-to-book-cover.jpg);
+    box-shadow: 8px 8px 10px rgba(205, 72, 10, 0.875);
+}
+#f{
+  background-image: url(https://images.unsplash.com/photo-1658153254020-898121c0037f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+#g{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlOX3cwu74D1BSFwnxmjJfhjQJlYCoK74Pyw&usqp=CAU);
+    background-size: cover;
+}
+#h{
+    background-image: url(https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-733872.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center;
+}
+#i{
+    background-image: url(https://t4.ftcdn.net/jpg/02/45/56/35/360_F_245563558_XH9Pe5LJI2kr7VQuzQKAjAbz9PAyejG1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#j{
+    background-image: url(https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?w=2000);
+    background-size: cover;
+    background-position: center;
+}
+#k{
+    background-image: url(https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZmVtYWxlJTIwcG9ydHJhaXR8ZW58MHx8MHx8&w=1000&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#l{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/770/462/564/pretty-girl-pictures-1920x1200-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#m{
+    background-image: url(https://image.shutterstock.com/image-photo/closeup-portrait-handsome-smiling-young-260nw-1687157521.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#four{
+    background: linear-gradient(to bottom,rgb(237, 199, 199),rgba(138, 21, 21, 0.918));
+}
+#book4{
+background-image:url(https://images-na.ssl-images-amazon.com/images/I/710ESoXqVPL.jpg);
+box-shadow: 8px 8px 10px rgb(48, 3, 3);
+
+}
+#five{
+    background: linear-gradient(to bottom,rgb(172, 215, 233),rgb(39, 128, 163));
+}
+#book5{
+    background-image:url(https://www.stylist.co.uk/images/app/uploads/2011/10/11131249/81v5wp2zeql.jpg?w=1200&h=1&fit=max&auto=format%2Ccompress);
+    box-shadow: 8px 8px 10px rgba(5, 36, 46, 0.875);
+
+}
+#book6{
+    background-image:url(https://www.bookgeeks.in/wp-content/uploads/2018/01/This-is-Not-Your-Story-by-Savi-Sharma.jpg);
+    box-shadow: 8px 8px 10px rgba(64, 51, 3, 0.875);
+
+}
+#six{
+    background: linear-gradient(to bottom,rgb(236, 236, 155),rgb(153, 108, 31));
+}
+#BrowseNAuthor{
+    display: flex;
+    justify-content: space-between;
+
+}
+#Browse{
+padding: 20px 30px;
+}
+#rowp{
+    display: flex;
+    gap: 50px;
+    overflow: hidden;
+}
+#rowp2{
+    display: flex;
+    gap: 50px;
+
+}
+.row{
+    height: 160px;
+    width:280px ;
+    display: flex;
+    gap: 20px;
+} 
+.brbook{
+    margin-top: 8px;
+    height:130px;
+    width:83px;
+    border-radius: 5px ;
+}
+#brbook1{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348097960i/10660230.jpg);
+    background-size: cover;
+}
+#brbook2{
+    background-image: url(https://kbimages1-a.akamaihd.net/0a22c41c-9c77-4dc8-b791-907efaf03566/353/569/90/False/blue-is-a-darkness-weakened-by-light.jpg);
+    background-size: cover;
+}
+#brbook3{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/51o-mzQ6NeL._SX322_BO1,204,203,200_.jpg);
+    background-size: cover;
+    width: 117px;
+}
+#brbook4{
+    background-image: url(https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448461096l/27966804._SY475_.jpg);
+    background-size: cover;
+}
+#brbook5{
+    background-image: url(https://rukminim1.flixcart.com/image/416/416/jzlldow0/book/8/7/1/the-crow-s-vow-original-imafjkgjgmdhpskw.jpeg?q=70);
+    background-size: cover;
+}
+#brbook6{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_637997-MLB50031627440_052022-O.jpg);
+    background-size: cover;
+}
+#brtext{
+    padding-top: 12px;
+    line-height: 23px;
+}
+#brtext>h5{
+    opacity: 0.6;
+}
+#brtext>i{
+    line-height: 50px;
+    font-size: 17px;
+}
+#author{
+   padding-top:19px;
+   padding-right:12%;
+   overflow: hidden;
+}
+.person{
+    display: flex;
+    gap: 10px;
+    padding-top: 15px;
+    line-height: 30px;
+
+}
+ .picture{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+#name>h6{
+    margin:6px 0px; 
+    font-size: 17px;
+}
+.picture{
+    background-position: center;
+    background-size: cover;
+}
+#ph1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzNNE2la9vfc01CPWiygaruJgbWA-shldvrg&usqp=CAU);
+    background-size: cover;
+}
+#ph2{
+    background-image: url(https://fixthephoto.com/blog/images/uikit_slider/male-photo-edited-by-fixthephoto_1649799183.jpg);
+    background-size: cover;
+}
+#ph3{
+    background-image: url(https://images.unsplash.com/photo-1615414400871-0c67042d9653?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydHJhaXQlMjBnaXJsfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-size: cover;
+}
+#ph4{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3PXE2a0BE_achInzZtF0raJ7YsfQW_619Zg&usqp=CAU);
+    background-size: cover;
+}
+#ph5{
+    background-image: url(https://expertphotography.b-cdn.net/wp-content/uploads/2022/03/Male-Poses-Casual.jpg);
+    background-size: cover;
+}
+#ph6{
+    background-image: url(https://media.istockphoto.com/photos/portrait-of-smiling-young-man-in-city-on-sunny-day-picture-id863488868?k=20&m=863488868&s=612x612&w=0&h=0nlCVra-NlgrCFhmhbRNZMRaLDxz6or4hspVpIfzKnQ=);
+    background-size: cover;
+}
+#ph7{
+    background-image: url();
+    background-size: cover;
+}
+
